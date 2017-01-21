@@ -1,3 +1,14 @@
+body {
+	background: url("train1.jpg");
+}
+
 .jumbotron {
-	background-color: #76f283;
+	background-color: orange;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.panel-body {
+	background-color: orange;
 }
