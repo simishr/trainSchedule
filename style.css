@@ -1,14 +1,23 @@
 body {
 	background: url("train1.jpg");
+	background-repeat: no-repeat;
 }
 
 .jumbotron {
-	background-color: orange;
+	background-color: #10111e;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: #afb0bc;
 }
 
-.panel-body {
-	background-color: orange;
+.panel-heading,.panel-body {
+	background-color: #10111e;
+}
+
+th, td, label {
+	color: #afb0bc;
+}
+
+.form-control {
+	background-color: #afb0bc;
 }
